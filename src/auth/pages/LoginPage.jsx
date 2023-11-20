@@ -65,7 +65,6 @@ export const LoginPage = () => {
               onChange={onInputChange}
             />
           </Grid>
-
           <Grid container display={!!errorMessage ? '' : 'none'} sx={{ mt: 1 }}>
             <Grid item xs={12}>
               <Alert severity='error'>{errorMessage}</Alert>
